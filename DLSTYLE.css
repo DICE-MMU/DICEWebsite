@@ -1,0 +1,135 @@
+header{
+    color: white;
+    width: 100%; 
+    height: 5vh; 
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    position: fixed; 
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+}
+
+body {
+    background-image: url("img/GIF/DiceOldGif.gif");
+    background-color: #cccccc;
+    
+    font-family: 'Nunito';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20svh;
+    padding-top: 2vh;
+    width: 100%;
+   }
+
+h1{
+    color: white;
+    font: Nunito;
+   }
+h2{
+    color: white;
+    font: Nunito;
+    font-size: 150px;
+    margin-bottom: 60px;
+   }
+p1{
+    color: white;
+    font: Nunito;
+    font-size: 30px;
+    margin-top: -70px;
+   }
+
+   button{
+    border-color: transparent;
+    font-family: 'Nunito';
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(166,133,91);
+    background: linear-gradient(180deg, rgba(166,133,91,1) 0%, rgba(146,93,81,1) 100%);
+    color: white;
+    font-size: 30.3;
+    font: Nunito;
+    width: 292.7px;  
+    height: 47.2px; 
+   
+  }
+.RegisterButton{
+    background: transparent;
+    border-color: transparent;
+    font-family: 'Nunito';
+    color: white;
+    font-size: 20;
+    font: Nunito;
+    width: 292.7px;  
+    height: 47.2px;
+}
+.button-container {
+    position: absolute;
+    bottom: 1%; 
+    left: 50%;
+    transform: translate(-50%,-1%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Img-Container{
+   
+    position: absolute;
+    bottom: 48%; 
+    left: 7%;
+    transform: translate(-7%,-48%);
+    display: flex;
+    
+    align-items: left;
+}
+img{
+    width: 275px;
+    height:275px;
+}
+.LoginContainer{
+    position: absolute;
+    bottom: 2%; 
+    left: 50%;
+    transform: translate(-50%,-2%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+input{
+    height: 60px;
+    padding: 10px;
+    font-size: 10px; /* Larger font can make input feel bigger */
+    
+}
+p2{
+    font-size: 30px;
+    color: white;
+}
+.BackButton{
+    position: relative;
+    bottom: 2%; 
+    left: 50%;
+    transform: translate(-50%,-2%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.RegisterContainer{
+    position: absolute;
+    bottom: 2%; 
+    left: 50%;
+    transform: translate(-50%,-2%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
