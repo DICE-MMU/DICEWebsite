@@ -114,7 +114,7 @@ p2{
 }
 .BackButton{
     position: relative;
-    bottom: 2%; 
+    bottom: 2%;
     left: 50%;
     transform: translate(-50%,-2%);
     display: flex;
@@ -125,11 +125,10 @@ p2{
     
 }
 .RegisterContainer{
-    position: relative;
-
-    transform: translate(0%,140%);
+    position: absolute;
+    transform: translate(0%,220%);
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
 }
