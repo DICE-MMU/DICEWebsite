@@ -15,8 +15,7 @@ header {
 
 body {
     background-color: black;
-    
-    font-family: 'Nunito';
+
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -69,6 +68,7 @@ h2 {
     width: 249.7px;  /* about 20% wider */
     height: 250.9px; /* about 25% taller */
     padding: 15px 40px; /* slightly increased padding */
+      cursor:pointer;
     
    
   }

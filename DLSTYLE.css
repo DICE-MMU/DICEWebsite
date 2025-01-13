@@ -16,7 +16,6 @@ header{
 body {
     background-image: url("img/GIF/DiceOldGif.gif");
     background-color: #cccccc;
-    
     font-family: 'Nunito';
     font-weight: bold;
     display: flex;
@@ -37,12 +36,20 @@ h2{
     font: Nunito;
     font-size: 150px;
     margin-bottom: 60px;
+    position: relative;
+    bottom: -55%;
+    left: 0%;
+    transform: translate(-0%,-55%);
    }
 p1{
     color: white;
     font: Nunito;
     font-size: 30px;
-    margin-top: -70px;
+    margin-top: -210px;
+    position: relative;
+    bottom: 10%;
+    left: 0%;
+    transform: translate(-0%,-10%);
    }
 
    button{
@@ -52,10 +59,11 @@ p1{
     background: rgb(166,133,91);
     background: linear-gradient(180deg, rgba(166,133,91,1) 0%, rgba(146,93,81,1) 100%);
     color: white;
-    font-size: 30.3;
-    font: Nunito;
+       cursor:pointer;
+    font-size: 30.3px;
+    font: 'Nunito';
     width: 292.7px;  
-    height: 47.2px; 
+    height: 47.2px;
    
   }
 .RegisterButton{
@@ -64,15 +72,15 @@ p1{
     font-family: 'Nunito';
     color: white;
     font-size: 20;
-    font: Nunito;
+    font: 'Nunito';
     width: 292.7px;  
     height: 47.2px;
 }
 .button-container {
-    position: absolute;
-    bottom: 1%; 
-    left: 50%;
-    transform: translate(-50%,-1%);
+    position: relative;
+    bottom: -160%;
+    left: 0%;
+    transform: translate(0%,160%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,14 +88,13 @@ p1{
 }
 
 .Img-Container{
-   
-    position: absolute;
-    bottom: 48%; 
-    left: 7%;
-    transform: translate(-7%,-48%);
+
+    position: relative;
+    bottom: -135%;
+    left: -18%;
+    transform: translate(-18%,-135%);
     display: flex;
-    
-    align-items: left;
+    align-items: flex-end;
 }
 img{
     width: 275px;

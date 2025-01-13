@@ -1,0 +1,140 @@
+header{
+    color: white;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+}
+
+body {
+
+    background-color: Black;
+    font-family: 'Nunito';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20svh;
+    padding-top: 2vh;
+    width: 100%;
+}
+
+button{
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(166,133,91);
+    background: linear-gradient(180deg, rgba(166,133,91,1) 0%, rgba(146,93,81,1) 100%);
+    width: 249.7px;  /* about 20% wider */
+    height: 250.9px; /* about 25% taller */
+    display: grid;
+    color: #172627;
+    font-size: 32px;
+    border-color: transparent;
+    grid-template-rows: min-content auto;
+    cursor:pointer;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.PlayerProfileLabel{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 0.5vw;
+
+}
+.PlayerName{
+    border-color: transparent;
+    font-family: 'Nunito';
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(166,133,91);
+    background: linear-gradient(180deg, rgba(166,133,91,1) 0%, rgba(146,93,81,1) 100%);
+    color: white;
+    font-size: 30.3px;
+    align-items: flex-start;
+    padding-inline: 20vw;
+    padding-block: 2vh;
+    margin-bottom: 20%;
+    margin-top: 10%;
+
+}
+.vertical-line {
+    width: 4px;
+    height: 100%;
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(166,133,91);
+    background: linear-gradient(180deg, rgba(166,133,91,1) 0%, rgba(146,93,81,1) 100%);
+    margin-right: 0px; /* Spacing between the line and text */
+
+}
+.PlayerProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 15vh;
+
+}
+.CharacterProfile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 15vh;
+
+}
+.ProfileTitle{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2vw;
+    column-fill: auto;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    left: 5vw;
+    transform: translate(-5%);
+
+}
+.PlayerProfileDiv{
+    width: 80%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: left;
+}
+
+
+.NavigationActions{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    column-gap: 7vw;
+    margin-top: 5%;
+}
+.button-images{
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+
+}
+.back-button{
+    background: transparent;
+    border-color: transparent;
+    width: 5%;
+    height: 10%;
+}
