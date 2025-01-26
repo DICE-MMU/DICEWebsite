@@ -1,4 +1,4 @@
-let CurrentVisible ="Sign";
+let CurrentVisible ="PlayerProfile";
 
 function VisiblityManager(element){
     var NewElement = document.getElementById(element)

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="UserProfileUI.css">
+    <title>User Profile!</title>
+</head>
+<body>
+    <div class="PlayerProfile" id="PlayerProfile">
+        <div class="PlayerProfileDiv"><div class="vertical-line"></div><label class ="PlayerProfileLabel">Player Profile:</label></div>
+        <br>
+        <div class="ProfileTitle"><img src="img\static\PFPPlaceHolder.png"><label class ="PlayerName">Player Name:</label></div>
+        <br>
+        <div class="NavigationActions"><button>Player Character</button><button onclick="VisiblityManager('CharacterProfile')"><img  class="button-images"src="img\static\D.I.C.EMasqLogo.png">Event<br>Awards</button><button>Service Awards</button></div>
+    </div>
+    <div class="CharacterProfile" id="CharacterProfile">
+        <div class="PlayerProfileDiv"><button class="back-button" onclick="VisiblityManager('PlayerProfile')"><img class="back-button-img" src="img/static/BackArrow.png"></button><div class="vertical-line"></div><label class ="PlayerProfileLabel">Character Profile:</label></div>
+        <br>
+        <div class="ProfileTitle"><img src="img\static\PFPPlaceHolder.png"><label class ="PlayerName">Character Name:</label></div>
+        <br>
+        <div class="NavigationActions"><button>Adventure Record</button><button>Inventory</button><button>Story Awards</button></div>
+    </div>
+    <script src="UserProfileCode.js"></script>
+</body>
+</html>

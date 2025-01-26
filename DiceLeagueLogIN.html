@@ -1,3 +1,5 @@
+
+
 <html>
     <head>
         <link rel="stylesheet" href="DLSTYLE.css">
@@ -10,28 +12,32 @@
         <h1>Dive into Imagination for Creative Entertainment</h1>
     
     </header>
-    <body>
-        <div class="Img-Container"><img src="img/static/DICELOGOW.png" alt="Dice Club Logo" class="logo"></div>
-        <h2>D.I.C.E League</h2>
+    <body >
+
+       <h2><div class="Img-Container"><img src="img/static/DICELOGOW.png" alt="Dice Club Logo" class="logo"></div>D.I.C.E League</h2>
         <p1>Character Logsheet, Rewards, DICELMart</p1>
-        <div class="button-container" id="Sign" ><button onclick="VisiblityManager('LoginDetail')">Login</button>
+       <div class="button-container" id="Sign" ><button onclick="VisiblityManager('LoginDetail')">Login</button>
         <button class="RegisterButton" onclick="VisiblityManager('RegisterDetail')">NO ACCOUNT? SIGN UP</button>
         </div>
+
         <div class="LoginContainer" id="LoginDetail"><p2>UserName
             <input type="text" placeholder="Enter UserName" name="UserName" required size="30"><br><br>
             <p2>Password
                 <input type="text" placeholder="Enter Password" name="Password" required size="30"><br><br>
-                <button class="BackButton" >Login</button>
+                <button class="BackButton" onclick="window.location.href = 'LeagueUserInfo.html'" >Login</button>
                 <button class="BackButton" onclick="VisiblityManager('Sign')">Back</button></p2>
-            </div>
+
+        </div>
             <div class="RegisterContainer" id="RegisterDetail"><p2>UserName
                 <input type="text" placeholder="Enter UserName" name="UserName" required size="30"><br><br>
                 <p2>Password
                     <input type="text" placeholder="Enter Password" name="Password" required size="30"><br><br>
                     <button class="BackButton" >Register</button>
                     <button class="BackButton" onclick="VisiblityManager('Sign')">Back</button></p2>
-                </div>
-                <script src = "DLSIGN.js"></script>
+            </div>
+
+        <script src = "DLSIGN.js"></script>
+
     </body>
     
 </html>
